@@ -74,3 +74,19 @@ Bitstream generation and FPGA flashing skipped
 
 ![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture5.png)
 
+Understanding Check (Mandatory)
+Participants must submit brief answers to the following questions:
+1.	Where is the RISC-V program located in the vsd-riscv2 repository?
+   
+   The RISC-V application resides in the **samples** folder within the **vsd-riscv2** repository.
+  	
+2.	How is the program compiled and loaded into memory?
+
+   The source code is cross-compiled using the **riscv64-unknown-elf-gcc** toolchain and executed through the **Spike** simulator with the **proxy kernel** (pk), which handles loading the ELF binary into memory.
+   
+3.	How does the RISC-V core access memory and memory-mapped IO?
+   The core uses standard RISC-V **load/store** instructions over the system bus, with peripherals accessed through **memory-mapped IO** addresses.
+  	
+4.	Where would a new FPGA IP block logically integrate in this system?
+   A new FPGA IP block would integrate as a **memory-mapped peripheral** connected to the **SoC interconnect**, allowing the RISC-V core to communicate with it through defined **address ranges**.
+
