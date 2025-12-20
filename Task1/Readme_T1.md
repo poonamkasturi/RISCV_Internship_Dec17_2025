@@ -86,8 +86,10 @@ Steps followed for logo generation
 ## noVNC Image
 ![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture7.png)
 
-Understanding Check (Mandatory)
-Participants must submit brief answers to the following questions:
+___
+### Understanding Check (Mandatory)
+
+
 1.	Where is the RISC-V program located in the vsd-riscv2 repository?
    
    The RISC-V application resides in the **samples** folder within the **vsd-riscv2** repository.
