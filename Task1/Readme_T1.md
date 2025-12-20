@@ -77,6 +77,16 @@ root@codespaces-41c123:/workspaces/vsd-riscv2/samples# ./a.out     TO CHECK THE 
    from ports tab install the noVNC session 
    
    and run the execution of the code in noVNC
+   
+      in codespace - port tab click the forward address link for noVNC Desktop (6080)
+      in the new browser tab opened Click vnc_lite.html.
+
+   ___
+   A new Linux desktop appears in the browser
+   open a terminal and **navigate** to samples folder
+   ___
+Change the directory path from Desktop to the required folder **workspaces/vsd-riscv2/samples**
+___
 
 ```
 root@codespaces-41c123:/workspaces/vsd-riscv2/samples# gcc sum1ton.c
@@ -113,11 +123,12 @@ root@codespaces-41c123:/workspaces/vsd-riscv2# git clone https://github.com/vsdi
 ```
 
 **Objective**
+```
 Execute the basicRISCV lab:
 Generated BRAM hex from firmware for riscv logo and display on terminal
 No FPGA hardware tools were used.
 the hex code has been seen in the output and logo generated
-
+```
 **commands used**
 change the path to /vsdfpga_labs/basic_RISCV/firmware
 make the hex file
