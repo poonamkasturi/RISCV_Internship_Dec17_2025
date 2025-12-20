@@ -56,11 +56,11 @@ Output: "Sum from 1 to 9 is 45"
 
 ![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture1.png)
 
-![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture2.png)
+![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture2a.png)
 
-![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture3.png)
+![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture3a.png)
 
-![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture4.png)
+![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture4a.png)
 
 
 **Step 3: Clone and Run VSDFPGA Labs**
@@ -73,6 +73,18 @@ Bitstream generation and FPGA flashing skipped
 ```
 
 ![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture5.png)
+
+
+Steps followed for logo generation
+```
+#riscv64-unknown-elf-gcc -o riscv_logo.o riscv_logo.c
+#spike pk riscv_logo.o
+```
+## Codespace Image
+![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture6.png)
+
+## noVNC Image
+![](https://github.com/poonamkasturi/RISCV_Internship_Dec17_2025/blob/main/Task1/screenshots/Picture7.png)
 
 Understanding Check (Mandatory)
 Participants must submit brief answers to the following questions:
